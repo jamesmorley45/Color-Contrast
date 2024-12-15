@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 108vh;
+   background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(download.jpg);
+   background-size: cover;
+   background-position: center; 
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+.heading{
+    width: 100%;
+    height: 60px;
+    background: #00e466;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+.content{
+    display: inline-block;
+    width: 50%;
+    max-width: 650px;
+    min-width: 350px;
+    background: white;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+.box-inputs{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.box1-input{
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.box2-input{
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    margin-top: 10px; 
+    border-radius: 50%; 
+    border: 1px solid black;
+}
+.btn-inputs{
+    display: flex;
+    width: 85%;
+    height: 200px;
+    background: #4d1c1c;
+    margin-top: 30px;
+    margin-left: 20px;
+  padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 130px;
+    border-radius: 10px;
+}
+h2{
+    margin-right: 10px;
+}
+.row1 h2{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background: #0538e0;
+}
+.row2 h2{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background: #000000;
+}
+.row1 button{
+    width: 70px;
+    height: 65px;
+    margin-top: 20px;
+    border: 0;
+    outline: 0;
+}
+.row2 button{
+    width: 70px;
+    height: 65px;
+    margin-top: 20px;
+    border: 0;
+    outline: 0 ;
+}
+.col1{
+    background: #555;
+}
+.col2{
+    background: #8b1010;
+}
+.col3{
+    background: #000000;
+}
+.col4{
+    background: #ffc400;
+}
+.col5{
+    background: #7dff03;
+}
+.col6{
+    background:  #073128;
+}
+.col7{
+    background: #00fff2;
+}
+.col8{
+    background: #0538e0;
+}
+.col9{
+    background: #96a8a7;
+}
+.col10{
+    background: #b206d4;
+}
+.col11{
+    background: #ca0d82;
+}
+.col12{
+    background: #00e466;
+}
